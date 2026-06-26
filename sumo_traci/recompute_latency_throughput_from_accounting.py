@@ -201,7 +201,7 @@ def build_summary(rows: list[dict[str, str]], fieldnames: list[str]) -> tuple[li
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
-            "Recompute scenario latency/throughput CSVs from the staged mobility "
+            "Recompute scenario latency/throughput CSVs from the provided mobility "
             "load and the current computation/communication accounting model."
         )
     )

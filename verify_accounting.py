@@ -71,7 +71,7 @@ def check_energy_summary() -> int:
             print(f"  - {item}")
         return 1
 
-    print("[OK] CPQ-V2X energy summary matches the staged manuscript values")
+    print("[OK] CPQ-V2X energy summary matches the manuscript values")
     return 0
 
 
@@ -101,7 +101,7 @@ def main() -> int:
         print("\nAccounting verification failed.")
         return 1
 
-    print("\nAll staged accounting checks passed.")
+    print("\nAll accounting checks passed.")
     return 0
 
 

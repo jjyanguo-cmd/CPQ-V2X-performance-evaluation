@@ -1,7 +1,7 @@
 # CPQ-V2X Performance-Evaluation Package
 
-This staging package contains performance-evaluation artifacts for the CPQ-V2X
-revision. It is not a production implementation of the full protocol stack.
+This package contains performance-evaluation artifacts for the CPQ-V2X
+manuscript. It is not a production implementation of the full protocol stack.
 
 ## Scope
 
@@ -23,14 +23,14 @@ dependencies if they are not already available:
 python -m pip install -r requirements.txt
 ```
 
-Run the following command from this directory to verify that the staged
+Run the following command from this directory to verify that the provided
 computation, communication, and energy accounting remains closed:
 
 ```bash
 python verify_accounting.py
 ```
 
-To verify the staged SUMO/TraCI result tables without re-running SUMO, run:
+To verify the provided SUMO/TraCI result tables without re-running SUMO, run:
 
 ```bash
 python sumo_traci/verify_sumo_results.py
@@ -49,7 +49,7 @@ figures, or compile the manuscript.
 
 ## External Tools
 
-The accounting checks use only the staged CSV/JSON/Python files. A full SUMO
+The accounting checks use only the provided CSV/JSON/Python files. A full SUMO
 re-run additionally requires SUMO/TraCI and a valid `SUMO_HOME` environment
 variable. The optional smart-contract microbenchmark requires Foundry. These
 external tools are not needed for the read-only verification commands above.
@@ -63,7 +63,7 @@ interactive window unless the environment variable `CPQ_SHOW_FIGURES` is set to
 ## Notes
 
 For CPQ-V2X, communication overhead is decomposed into the online message
-components used in the four evaluated modes. For baseline schemes, the staged
+components used in the four evaluated modes. For baseline schemes, the provided
 communication accounting uses protocol-level side payloads adopted in the
 revised manuscript, rather than inventing unpublished field-level
 decompositions.

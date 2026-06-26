@@ -10,7 +10,7 @@ channel fading, wireless contention, or intermittent RSU connectivity.
 
 ## Files
 
-- `chaoyang.net.xml`: SUMO road network used by the staged scenario.
+- `chaoyang.net.xml`: SUMO road network used by the provided scenario.
 - `vtype.xml`: vehicle type configuration used for scenario generation.
 - `rsu_positions.json`: RSU coordinates and coverage radius.
 - `generate_scenarios.ps1`: generates randomized SUMO route/configuration files
@@ -21,12 +21,12 @@ channel fading, wireless contention, or intermittent RSU connectivity.
   configuration files and writes the raw CSV to `../results/`.
 - `summarize_latency_throughput.py`: aggregates the raw 10-run results into the
   mean/std summary CSV used by the plotting scripts and manuscript.
-- `recompute_latency_throughput_from_accounting.py`: reuses the staged
+- `recompute_latency_throughput_from_accounting.py`: reuses the provided
   mobility-derived average concurrent-request load and recomputes all
   authentication latency/throughput columns from the current computation and
   communication accounting model.
 - `verify_sumo_results.py`: performs a read-only consistency check over the
-  staged raw and summary CSV files.
+  provided raw and summary CSV files.
 
 ## Quick Verification Without Re-running SUMO
 
@@ -36,13 +36,13 @@ From the package root, run:
 python sumo_traci/verify_sumo_results.py
 ```
 
-This check verifies that the staged CSV files contain 10 runs for each vehicle
+This check verifies that the provided CSV files contain 10 runs for each vehicle
 count from 100 to 1000, that the raw latency/throughput columns are consistent
 with the current accounting model, and that the summary CSV is reproduced from
 the raw CSV. It does not require SUMO, TraCI, or pandas.
 
 If the computation or communication accounting changes while the SUMO mobility
-load remains unchanged, re-map the staged load to the updated accounting model
+load remains unchanged, re-map the provided mobility-derived load to the updated accounting model
 before re-plotting:
 
 ```bash
@@ -62,7 +62,7 @@ python .\summarize_latency_throughput.py
 ```
 
 The generated scenario directories may be large and are not included in this
-staging package. They can be regenerated from the provided network, vehicle
+package. They can be regenerated from the provided network, vehicle
 type, and random-trip settings.
 
 ## Interpretation Boundary

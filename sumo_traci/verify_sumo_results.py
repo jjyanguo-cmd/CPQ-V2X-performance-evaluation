@@ -137,7 +137,7 @@ def main() -> int:
     check_summary_rows(summary_rows)
     check_summary_matches_raw(raw_rows, raw_fieldnames, summary_rows)
 
-    print("All staged SUMO/TraCI result checks passed.")
+    print("All SUMO/TraCI result checks passed.")
     print(
         "These checks validate mobility-driven authentication-processing metrics, "
         "not PHY/MAC-layer reliability."

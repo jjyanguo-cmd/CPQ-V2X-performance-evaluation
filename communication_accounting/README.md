@@ -1,7 +1,7 @@
 # Communication-Overhead Accounting
 
 This directory documents the communication-overhead accounting used by the
-performance-evaluation staging package.
+performance-evaluation package.
 
 The accounting is intentionally split into two levels.
 
@@ -23,7 +23,7 @@ The accounting is intentionally split into two levels.
 reported in the revised manuscript communication table. Running
 `compute_communication_overhead.py` regenerates
 `computed_communication_overhead.csv`, which compares component-derived values
-against the reported totals. All residuals should be zero if the staged
+against the reported totals. All residuals should be zero if the provided
 accounting remains synchronized with the manuscript.
 
 The reusable `communication_model.py` module is imported by the communication
