@@ -1,0 +1,5 @@
+scheme_key,scheme_label,vehicle_us,rsu_us,ta_chain_us,total_us,source_note
+Cui2019_ECPP,Cui et al. [25] ECPP multi-cloud AKA,109.223,108.459,73.306,290.988,Revised manuscript Table comp-overhead
+Dabra2024_SL3PAKE,Dabra et al. [17] SL3PAKE,21.506,21.510,37.744,80.760,Revised manuscript Table comp-overhead
+Cui2025_VDT,Cui et al. [33] vehicular digital twin AKA,20.661,12.910,2.302,35.873,Revised manuscript Table comp-overhead
+Yan2025_BCL3AKA,Yan et al. [35] BCL-3AKA,26.630,34.815,22.018,83.463,Revised manuscript Table comp-overhead

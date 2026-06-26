@@ -1,0 +1,17 @@
+scheme_key,scheme_label,side,computed_from_listed_counts_us,reported_in_manuscript_us,residual_us,status
+Cui2019_ECPP,Cui et al. [25] ECPP multi-cloud AKA,vehicle,109.223,109.223,0.000,fully_decomposed_from_operation_counts
+Cui2019_ECPP,Cui et al. [25] ECPP multi-cloud AKA,rsu,108.459,108.459,0.000,fully_decomposed_from_operation_counts
+Cui2019_ECPP,Cui et al. [25] ECPP multi-cloud AKA,ta_chain,73.306,73.306,0.000,fully_decomposed_from_operation_counts
+Cui2019_ECPP,Cui et al. [25] ECPP multi-cloud AKA,total,290.988,290.988,0.000,fully_decomposed_from_operation_counts
+Dabra2024_SL3PAKE,Dabra et al. [17] SL3PAKE,vehicle,21.506,21.506,0.000,fully_decomposed_from_operation_counts
+Dabra2024_SL3PAKE,Dabra et al. [17] SL3PAKE,rsu,21.510,21.510,0.000,fully_decomposed_from_operation_counts
+Dabra2024_SL3PAKE,Dabra et al. [17] SL3PAKE,ta_chain,37.744,37.744,0.000,fully_decomposed_from_operation_counts
+Dabra2024_SL3PAKE,Dabra et al. [17] SL3PAKE,total,80.760,80.760,0.000,fully_decomposed_from_operation_counts
+Cui2025_VDT,Cui et al. [33] vehicular digital twin AKA,vehicle,20.661,20.661,0.000,fully_decomposed_from_operation_counts
+Cui2025_VDT,Cui et al. [33] vehicular digital twin AKA,rsu,12.910,12.910,0.000,fully_decomposed_from_operation_counts
+Cui2025_VDT,Cui et al. [33] vehicular digital twin AKA,ta_chain,2.302,2.302,0.000,fully_decomposed_from_operation_counts
+Cui2025_VDT,Cui et al. [33] vehicular digital twin AKA,total,35.873,35.873,0.000,fully_decomposed_from_operation_counts
+Yan2025_BCL3AKA,Yan et al. [35] BCL-3AKA,vehicle,26.630,26.630,0.000,fully_decomposed_from_operation_counts
+Yan2025_BCL3AKA,Yan et al. [35] BCL-3AKA,rsu,34.815,34.815,0.000,fully_decomposed_from_operation_counts
+Yan2025_BCL3AKA,Yan et al. [35] BCL-3AKA,ta_chain,22.018,22.018,0.000,fully_decomposed_from_operation_counts
+Yan2025_BCL3AKA,Yan et al. [35] BCL-3AKA,total,83.463,83.463,0.000,fully_decomposed_from_operation_counts

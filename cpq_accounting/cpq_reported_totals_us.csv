@@ -1,0 +1,5 @@
+mode_key,mode_label,vehicle_us,rsu_us,ta_chain_us,total_us,source_note
+cpq_intra_aka,Ours (Intra-AKA),21.433,21.721,0.000,43.154,Side-level online computation overhead reported in the revised manuscript
+cpq_inter_aka,Ours (Inter-AKA),22.088,22.376,0.000,44.464,Side-level online computation overhead reported in the revised manuscript
+cpq_intra_re_aka,Ours (Intra-Re-AKA),14.740,14.310,0.000,29.050,Side-level online computation overhead reported in the revised manuscript
+cpq_inter_re_aka,Ours (Inter-Re-AKA),15.395,14.965,0.000,30.360,Side-level online computation overhead reported in the revised manuscript

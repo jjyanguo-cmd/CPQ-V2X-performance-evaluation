@@ -1,0 +1,66 @@
+scheme_key,side,operation_symbol,count,source_note
+Cui2019_ECPP,vehicle,T_H,8,eq:comp-ecpp-veh using T_H for H and h
+Cui2019_ECPP,vehicle,T_Rand,1,eq:comp-ecpp-veh
+Cui2019_ECPP,vehicle,T_ECMul,3,eq:comp-ecpp-veh
+Cui2019_ECPP,rsu,T_H,6,eq:comp-ecpp-csp
+Cui2019_ECPP,rsu,T_Rand,1,eq:comp-ecpp-csp
+Cui2019_ECPP,rsu,T_ECMul,3,eq:comp-ecpp-csp
+Cui2019_ECPP,ta_chain,T_H,8,eq:comp-ecpp-ta
+Cui2019_ECPP,ta_chain,T_ECMul,2,eq:comp-ecpp-ta
+Dabra2024_SL3PAKE,vehicle,T_SampR_eta1,2,eq:comp-sl3pake-A
+Dabra2024_SL3PAKE,vehicle,T_RM,4,eq:comp-sl3pake-A
+Dabra2024_SL3PAKE,vehicle,T_RA,8,eq:comp-sl3pake-A
+Dabra2024_SL3PAKE,vehicle,T_H,5,eq:comp-sl3pake-A with H0 H1 H2 mapped to T_H
+Dabra2024_SL3PAKE,vehicle,T_Mod2,2,eq:comp-sl3pake-A
+Dabra2024_SL3PAKE,rsu,T_SampR_eta1,2,eq:comp-sl3pake-B
+Dabra2024_SL3PAKE,rsu,T_RM,4,eq:comp-sl3pake-B
+Dabra2024_SL3PAKE,rsu,T_RA,8,eq:comp-sl3pake-B
+Dabra2024_SL3PAKE,rsu,T_H,5,eq:comp-sl3pake-B with H0 H1 H2 mapped to T_H
+Dabra2024_SL3PAKE,rsu,T_Cha,1,eq:comp-sl3pake-B
+Dabra2024_SL3PAKE,rsu,T_Mod2,2,eq:comp-sl3pake-B
+Dabra2024_SL3PAKE,ta_chain,T_SampR_eta1,4,eq:comp-sl3pake-S with per-session xS included
+Dabra2024_SL3PAKE,ta_chain,T_RM,7,eq:comp-sl3pake-S with per-session xS included
+Dabra2024_SL3PAKE,ta_chain,T_RA,14,eq:comp-sl3pake-S with per-session xS included
+Dabra2024_SL3PAKE,ta_chain,T_H,8,eq:comp-sl3pake-S with H0 H1 H2 mapped to T_H
+Dabra2024_SL3PAKE,ta_chain,T_Cha,2,eq:comp-sl3pake-S
+Dabra2024_SL3PAKE,ta_chain,T_Mod2,2,eq:comp-sl3pake-S
+Cui2025_VDT,vehicle,T_Rep,1,eq:cui-cost-vi
+Cui2025_VDT,vehicle,T_H,7,eq:cui-cost-vi
+Cui2025_VDT,vehicle,T_SampR_eta1,3,eq:cui-cost-vi using T_SampR_eta1 for polynomial sampling
+Cui2025_VDT,vehicle,T_RM,2,eq:cui-cost-vi
+Cui2025_VDT,vehicle,T_RA,2,eq:cui-cost-vi
+Cui2025_VDT,vehicle,T_HT,1,eq:cui-cost-vi
+Cui2025_VDT,vehicle,T_Mod2,1,eq:cui-cost-vi
+Cui2025_VDT,rsu,T_SampR_eta1,3,eq:cui-cost-dt using T_SampR_eta1 for polynomial sampling
+Cui2025_VDT,rsu,T_RM,2,eq:cui-cost-dt
+Cui2025_VDT,rsu,T_RA,2,eq:cui-cost-dt
+Cui2025_VDT,rsu,T_H,4,eq:cui-cost-dt
+Cui2025_VDT,rsu,T_HT,1,eq:cui-cost-dt
+Cui2025_VDT,rsu,T_Cha,1,eq:cui-cost-dt
+Cui2025_VDT,rsu,T_Mod2,1,eq:cui-cost-dt
+Cui2025_VDT,ta_chain,T_H,6,eq:cui-cost-ta
+Cui2025_VDT,ta_chain,T_HT,1,eq:cui-cost-ta
+Yan2025_BCL3AKA,vehicle,T_SC_ver,2,eq:Ty-veh-A1 maps BC read/write to the measured chain-side verification unit used in the original accounting script
+Yan2025_BCL3AKA,vehicle,T_SampZ,1,eq:Ty-veh-A1
+Yan2025_BCL3AKA,vehicle,T_SampR_eta1,2,eq:Ty-veh-A1 using T_SampR_eta1 as error-vector sampling proxy
+Yan2025_BCL3AKA,vehicle,T_AM,2,eq:Ty-veh-A1 maps AM and IP to the measured matrix-vector core used in the original accounting script
+Yan2025_BCL3AKA,vehicle,T_SV,2,eq:Ty-veh-A1 mapping SM to T_SV
+Yan2025_BCL3AKA,vehicle,T_AV,5,eq:Ty-veh-A1 plus eq:Ty-veh-A5; fixed-length XOR is mapped to vector-addition cost in the original accounting script
+Yan2025_BCL3AKA,vehicle,T_Cha,1,eq:Ty-veh-A1 mapping signal computation to T_Cha
+Yan2025_BCL3AKA,vehicle,T_Mod2,1,eq:Ty-veh-A1
+Yan2025_BCL3AKA,vehicle,T_H,6,eq:Ty-veh-A1 plus eq:Ty-veh-A5
+Yan2025_BCL3AKA,rsu,T_SC_ver,3,eq:Ty-rsu-A2 plus eq:Ty-rsu-A4 maps BC read/write to the measured chain-side verification unit used in the original accounting script
+Yan2025_BCL3AKA,rsu,T_SampZ,1,eq:Ty-rsu-A2
+Yan2025_BCL3AKA,rsu,T_SampR_eta1,2,eq:Ty-rsu-A2 using T_SampR_eta1 as error-vector sampling proxy
+Yan2025_BCL3AKA,rsu,T_AM,2,eq:Ty-rsu-A2 maps AM and IP to the measured matrix-vector core used in the original accounting script
+Yan2025_BCL3AKA,rsu,T_SV,2,eq:Ty-rsu-A2 mapping SM to T_SV
+Yan2025_BCL3AKA,rsu,T_AV,7,eq:Ty-rsu-A2 plus eq:Ty-rsu-A4; fixed-length XOR is mapped to vector-addition cost in the original accounting script
+Yan2025_BCL3AKA,rsu,T_Cha,1,eq:Ty-rsu-A2 mapping signal computation to T_Cha
+Yan2025_BCL3AKA,rsu,T_Mod2,1,eq:Ty-rsu-A2
+Yan2025_BCL3AKA,rsu,T_H,8,eq:Ty-rsu-A2 plus eq:Ty-rsu-A4
+Yan2025_BCL3AKA,ta_chain,T_SC_ver,2,eq:Ty-tcc-total maps SC verification and BC write to the measured chain-side verification unit used in the original accounting script
+Yan2025_BCL3AKA,ta_chain,T_AM,2,eq:Ty-tcc-total maps IP to the measured matrix-vector core used in the original accounting script
+Yan2025_BCL3AKA,ta_chain,T_SV,2,eq:Ty-tcc-total mapping SM to T_SV
+Yan2025_BCL3AKA,ta_chain,T_AV,6,eq:Ty-tcc-total; fixed-length XOR is mapped to vector-addition cost in the original accounting script
+Yan2025_BCL3AKA,ta_chain,T_Mod2,2,eq:Ty-tcc-total
+Yan2025_BCL3AKA,ta_chain,T_H,6,eq:Ty-tcc-total

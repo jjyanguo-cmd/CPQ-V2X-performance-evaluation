@@ -1,0 +1,17 @@
+mode_key,mode_label,side,computed_from_listed_counts_us,reported_in_manuscript_us,residual_us,status
+cpq_intra_aka,Ours (Intra-AKA),vehicle,21.433,21.433,0.000,fully_decomposed_from_operation_counts
+cpq_intra_aka,Ours (Intra-AKA),rsu,21.721,21.721,0.000,fully_decomposed_from_operation_counts
+cpq_intra_aka,Ours (Intra-AKA),ta_chain,0.000,0.000,0.000,fully_decomposed_from_operation_counts
+cpq_intra_aka,Ours (Intra-AKA),total,43.154,43.154,0.000,fully_decomposed_from_operation_counts
+cpq_inter_aka,Ours (Inter-AKA),vehicle,22.088,22.088,0.000,fully_decomposed_from_operation_counts
+cpq_inter_aka,Ours (Inter-AKA),rsu,22.376,22.376,0.000,fully_decomposed_from_operation_counts
+cpq_inter_aka,Ours (Inter-AKA),ta_chain,0.000,0.000,0.000,fully_decomposed_from_operation_counts
+cpq_inter_aka,Ours (Inter-AKA),total,44.464,44.464,0.000,fully_decomposed_from_operation_counts
+cpq_intra_re_aka,Ours (Intra-Re-AKA),vehicle,14.740,14.740,0.000,fully_decomposed_from_operation_counts
+cpq_intra_re_aka,Ours (Intra-Re-AKA),rsu,14.310,14.310,0.000,fully_decomposed_from_operation_counts
+cpq_intra_re_aka,Ours (Intra-Re-AKA),ta_chain,0.000,0.000,0.000,fully_decomposed_from_operation_counts
+cpq_intra_re_aka,Ours (Intra-Re-AKA),total,29.050,29.050,0.000,fully_decomposed_from_operation_counts
+cpq_inter_re_aka,Ours (Inter-Re-AKA),vehicle,15.395,15.395,0.000,fully_decomposed_from_operation_counts
+cpq_inter_re_aka,Ours (Inter-Re-AKA),rsu,14.965,14.965,0.000,fully_decomposed_from_operation_counts
+cpq_inter_re_aka,Ours (Inter-Re-AKA),ta_chain,0.000,0.000,0.000,fully_decomposed_from_operation_counts
+cpq_inter_re_aka,Ours (Inter-Re-AKA),total,30.360,30.360,0.000,fully_decomposed_from_operation_counts

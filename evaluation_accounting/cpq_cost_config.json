@@ -1,0 +1,27 @@
+{
+  "sampz_ref_d": 512,
+  "times_us": {
+    "T_H_us": 0.382,
+    "T_RM_us": 4.486,
+    "T_RA_us": 0.007,
+    "T_AM_us": 1.781,
+    "T_AV_us": 0.015,
+    "T_SV_us": 0.640,
+    "T_SV_plus_us": 0.642,
+    "T_Enc_us": 0.515,
+    "T_Dec_us": 0.506,
+    "T_SampR1_us": 0.792,
+    "T_SampR2_us": 0.426,
+    "T_Cha_us": 0.004,
+    "T_Mod2_us": 0.006,
+    "T_Rec_us": 0.010,
+    "T_SampZ_ref_us": 3.045
+  },
+  "modes": {
+    "CPQ-V2X intra": {
+      "vehicle": { "T_H": 1, "T_RM": 1, "T_SampZ": [{"d":512,"count":1}] },
+      "rsu": { "T_H": 1 },
+      "ta": {}
+    }
+  }
+}

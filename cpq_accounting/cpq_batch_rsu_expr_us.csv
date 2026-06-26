@@ -1,0 +1,5 @@
+mode_key,batch_rsu_linear_us,batch_rsu_intercept_us,source_note
+cpq_intra_aka,20.595,2.406,RSU-side randomized-batch-verification expression used in the revised concurrent-overhead model
+cpq_inter_aka,20.595,3.061,RSU-side randomized-batch-verification expression used in the revised concurrent-overhead model
+cpq_intra_re_aka,13.184,2.406,RSU-side randomized-batch-verification expression used in the revised concurrent-overhead model
+cpq_inter_re_aka,13.184,3.061,RSU-side randomized-batch-verification expression used in the revised concurrent-overhead model

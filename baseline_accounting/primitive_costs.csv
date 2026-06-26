@@ -1,0 +1,26 @@
+operation_symbol,cost_us,definition
+T_H,0.382,Hash evaluation with SHA3-256
+T_Enc,0.515,AEAD encryption with AES-128-GCM
+T_Dec,0.506,AEAD decryption with AES-128-GCM
+T_SampR_eta1,0.792,Noise sampling in Rq under eta1 or comparable baseline ring sampling
+T_SampR_eta2,0.426,Noise sampling in Rq under eta2
+T_SampZ,3.045,Sampling a vector over Zq^512
+T_RM,4.486,Ring multiplication in Rq via NTT
+T_RA,0.007,Ring addition or subtraction in Rq
+T_AM,1.781,Matrix-vector multiplication over Zq
+T_AV,0.015,Vector addition or subtraction over Zq^512
+T_SV,0.640,Scalar-vector multiplication over Zq^512
+T_SV_sm,0.002,Small-coefficient scalar-vector multiplication
+T_SV_plus,0.642,Scalar-vector accumulation over Zq^512
+T_Cha,0.004,Reconciliation hint generation
+T_Mod2,0.006,Reconciliation extraction
+T_Gen,1.863,Fuzzy-extractor generation
+T_Rep,6.609,Fuzzy-extractor reproduction
+T_Rand,0.792,Random nonce or scalar sampling
+T_HT,0.010,Hash-table lookup or insertion
+T_ECMul,35.125,Scalar multiplication on NIST P-256
+T_ECAdd,3.259,Point addition on NIST P-256
+T_ECDH,36.234,ECDH key derivation on NIST P-256
+T_SC_ver,7.391,On-chain verification runtime derived from gas consumption
+T_XOR,0.001,XOR on fixed-length bit strings used in baseline accounting
+T_cat,0.001,Input formatting or concatenation used in baseline accounting

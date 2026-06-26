@@ -1,0 +1,9 @@
+scheme_key,scheme_label,vehicle_bytes,rsu_bytes,ta_chain_bytes,total_bytes,source_note
+Cui2019_ECPP,Cui et al. [25],180,264,244,688,Side-level communication overhead reported in the revised manuscript
+Dabra2024_SL3PAKE,Dabra et al. [17],432,2128,1280,3840,Side-level communication overhead reported in the revised manuscript
+Cui2025_VDT,Cui et al. [33],820,1712,68,2600,Side-level communication overhead reported in the revised manuscript
+Yan2025_BCL3AKA,Yan et al. [35],1712,2800,160,4672,Side-level communication overhead reported in the revised manuscript
+cpq_intra_aka,CPQ-V2X (Intra-AKA),2804,1572,0,4376,Side-level communication overhead reported in the revised manuscript
+cpq_inter_aka,CPQ-V2X (Inter-AKA),2836,1572,0,4408,Side-level communication overhead reported in the revised manuscript
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),1236,772,0,2008,Side-level communication overhead reported in the revised manuscript
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),1252,772,0,2024,Side-level communication overhead reported in the revised manuscript

@@ -1,0 +1,48 @@
+scheme_key,scheme_label,side,component_label,size_bytes,count,source_note
+Cui2019_ECPP,Cui et al. [25],vehicle,vehicle-side online payload reported in manuscript accounting,180,1,Protocol-level side payload used in the revised manuscript table
+Cui2019_ECPP,Cui et al. [25],rsu,RSU-side online payload reported in manuscript accounting,264,1,Protocol-level side payload used in the revised manuscript table
+Cui2019_ECPP,Cui et al. [25],ta_chain,TA/Chain-side online payload reported in manuscript accounting,244,1,Protocol-level side payload used in the revised manuscript table
+Dabra2024_SL3PAKE,Dabra et al. [17],vehicle,vehicle-side online payload reported in manuscript accounting,432,1,Protocol-level side payload used in the revised manuscript table
+Dabra2024_SL3PAKE,Dabra et al. [17],rsu,RSU-side online payload reported in manuscript accounting,2128,1,Protocol-level side payload used in the revised manuscript table
+Dabra2024_SL3PAKE,Dabra et al. [17],ta_chain,TA/Chain-side online payload reported in manuscript accounting,1280,1,Protocol-level side payload used in the revised manuscript table
+Cui2025_VDT,Cui et al. [33],vehicle,vehicle-side online payload reported in manuscript accounting,820,1,Protocol-level side payload used in the revised manuscript table
+Cui2025_VDT,Cui et al. [33],rsu,RSU-side online payload reported in manuscript accounting,1712,1,Protocol-level side payload used in the revised manuscript table
+Cui2025_VDT,Cui et al. [33],ta_chain,TA/Chain-side online payload reported in manuscript accounting,68,1,Protocol-level side payload used in the revised manuscript table
+Yan2025_BCL3AKA,Yan et al. [35],vehicle,vehicle-side online payload reported in manuscript accounting,1712,1,Protocol-level side payload used in the revised manuscript table
+Yan2025_BCL3AKA,Yan et al. [35],rsu,RSU-side online payload reported in manuscript accounting,2800,1,Protocol-level side payload used in the revised manuscript table
+Yan2025_BCL3AKA,Yan et al. [35],ta_chain,TA/Chain-side online payload reported in manuscript accounting,160,1,Protocol-level side payload used in the revised manuscript table
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,TID_intra,48,1,First vehicle request contains TID_i
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,ring_element_Rq,384,1,First vehicle request contains p_i
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,hash_digest,32,1,First vehicle request contains h_i
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,timestamp,4,2,Vehicle sends t_i^(1) and t_i^(2)
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,encrypted_public_credential_payload,1564,1,Final vehicle response contains C_i under the adopted communication accounting
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,proof_vector_tau,768,1,Final vehicle response contains tau_i
+cpq_intra_aka,CPQ-V2X (Intra-AKA),rsu,ring_element_Rq,384,2,RSU response contains p_j and e_p
+cpq_intra_aka,CPQ-V2X (Intra-AKA),rsu,reconciliation_hint,32,1,RSU response contains w_j
+cpq_intra_aka,CPQ-V2X (Intra-AKA),rsu,proof_vector_tau,768,1,RSU response contains tau_j
+cpq_intra_aka,CPQ-V2X (Intra-AKA),rsu,timestamp,4,1,RSU response contains t_j^(1)
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,domain_id,16,1,First vehicle request contains ID_a
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,TID_inter,64,1,First vehicle request contains inter-domain TID_i
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,ring_element_Rq,384,1,First vehicle request contains p_i
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,hash_digest,32,1,First vehicle request contains h_i
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,timestamp,4,2,Vehicle sends t_i^(1) and t_i^(2)
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,encrypted_public_credential_payload,1564,1,Final vehicle response contains C_i under the adopted communication accounting
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,proof_vector_tau,768,1,Final vehicle response contains tau_i
+cpq_inter_aka,CPQ-V2X (Inter-AKA),rsu,ring_element_Rq,384,2,RSU response contains p_j and e_p
+cpq_inter_aka,CPQ-V2X (Inter-AKA),rsu,reconciliation_hint,32,1,RSU response contains w_j
+cpq_inter_aka,CPQ-V2X (Inter-AKA),rsu,proof_vector_tau,768,1,RSU response contains tau_j
+cpq_inter_aka,CPQ-V2X (Inter-AKA),rsu,timestamp,4,1,RSU response contains t_j^(1)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,TID_intra,48,1,Re-authentication request contains cached TID_i^(prev)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,ring_element_Rq,384,1,Re-authentication request contains e_p^(new)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,reconciliation_hint,32,1,Re-authentication request contains w_i^(new)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,proof_vector_tau,768,1,Re-authentication request contains tau_i^(new)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,timestamp,4,1,Re-authentication request contains t_i^(new)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),rsu,proof_vector_tau,768,1,Re-authentication response contains tau_j^(new)
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),rsu,timestamp,4,1,Re-authentication response contains t_j^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,TID_inter,64,1,Re-authentication request contains cached inter-domain TID_i^(prev)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,ring_element_Rq,384,1,Re-authentication request contains e_p^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,reconciliation_hint,32,1,Re-authentication request contains w_i^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,proof_vector_tau,768,1,Re-authentication request contains tau_i^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,timestamp,4,1,Re-authentication request contains t_i^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),rsu,proof_vector_tau,768,1,Re-authentication response contains tau_j^(new)
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),rsu,timestamp,4,1,Re-authentication response contains t_j^(new)

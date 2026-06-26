@@ -1,0 +1,33 @@
+scheme_key,scheme_label,side,computed_from_components_bytes,reported_in_manuscript_bytes,residual_bytes,status
+Cui2019_ECPP,Cui et al. [25],vehicle,180,180,0,fully_decomposed_from_component_lengths
+Cui2019_ECPP,Cui et al. [25],rsu,264,264,0,fully_decomposed_from_component_lengths
+Cui2019_ECPP,Cui et al. [25],ta_chain,244,244,0,fully_decomposed_from_component_lengths
+Cui2019_ECPP,Cui et al. [25],total,688,688,0,fully_decomposed_from_component_lengths
+Dabra2024_SL3PAKE,Dabra et al. [17],vehicle,432,432,0,fully_decomposed_from_component_lengths
+Dabra2024_SL3PAKE,Dabra et al. [17],rsu,2128,2128,0,fully_decomposed_from_component_lengths
+Dabra2024_SL3PAKE,Dabra et al. [17],ta_chain,1280,1280,0,fully_decomposed_from_component_lengths
+Dabra2024_SL3PAKE,Dabra et al. [17],total,3840,3840,0,fully_decomposed_from_component_lengths
+Cui2025_VDT,Cui et al. [33],vehicle,820,820,0,fully_decomposed_from_component_lengths
+Cui2025_VDT,Cui et al. [33],rsu,1712,1712,0,fully_decomposed_from_component_lengths
+Cui2025_VDT,Cui et al. [33],ta_chain,68,68,0,fully_decomposed_from_component_lengths
+Cui2025_VDT,Cui et al. [33],total,2600,2600,0,fully_decomposed_from_component_lengths
+Yan2025_BCL3AKA,Yan et al. [35],vehicle,1712,1712,0,fully_decomposed_from_component_lengths
+Yan2025_BCL3AKA,Yan et al. [35],rsu,2800,2800,0,fully_decomposed_from_component_lengths
+Yan2025_BCL3AKA,Yan et al. [35],ta_chain,160,160,0,fully_decomposed_from_component_lengths
+Yan2025_BCL3AKA,Yan et al. [35],total,4672,4672,0,fully_decomposed_from_component_lengths
+cpq_intra_aka,CPQ-V2X (Intra-AKA),vehicle,2804,2804,0,fully_decomposed_from_component_lengths
+cpq_intra_aka,CPQ-V2X (Intra-AKA),rsu,1572,1572,0,fully_decomposed_from_component_lengths
+cpq_intra_aka,CPQ-V2X (Intra-AKA),ta_chain,0,0,0,fully_decomposed_from_component_lengths
+cpq_intra_aka,CPQ-V2X (Intra-AKA),total,4376,4376,0,fully_decomposed_from_component_lengths
+cpq_inter_aka,CPQ-V2X (Inter-AKA),vehicle,2836,2836,0,fully_decomposed_from_component_lengths
+cpq_inter_aka,CPQ-V2X (Inter-AKA),rsu,1572,1572,0,fully_decomposed_from_component_lengths
+cpq_inter_aka,CPQ-V2X (Inter-AKA),ta_chain,0,0,0,fully_decomposed_from_component_lengths
+cpq_inter_aka,CPQ-V2X (Inter-AKA),total,4408,4408,0,fully_decomposed_from_component_lengths
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),vehicle,1236,1236,0,fully_decomposed_from_component_lengths
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),rsu,772,772,0,fully_decomposed_from_component_lengths
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),ta_chain,0,0,0,fully_decomposed_from_component_lengths
+cpq_intra_re_aka,CPQ-V2X (Intra-Re-AKA),total,2008,2008,0,fully_decomposed_from_component_lengths
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),vehicle,1252,1252,0,fully_decomposed_from_component_lengths
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),rsu,772,772,0,fully_decomposed_from_component_lengths
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),ta_chain,0,0,0,fully_decomposed_from_component_lengths
+cpq_inter_re_aka,CPQ-V2X (Inter-Re-AKA),total,2024,2024,0,fully_decomposed_from_component_lengths
